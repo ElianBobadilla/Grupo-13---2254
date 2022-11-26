@@ -1,0 +1,13 @@
+.box-registro-orden{
+    position: relative;
+	width: 610px;
+	height: 750px;
+	background: #45f3ff;
+	border-radius: 10px;
+	display: inline-block;
+
+}
+.columnas {
+	display: flex;
+	
+}
