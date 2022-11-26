@@ -8,7 +8,7 @@ const Editar_Orden = () => {
                 <form class="form-login" autocomplete="off">
                     <h2>Gestión de paquetes - Actualización de ordenes</h2>
                     <a class= "logo">
-                        <img src="https://cdn-icons-png.flaticon.com/512/1554/1554548.png" alt="Registro Usuario" height= "70" width="70"/>
+                        <img src="https://cdn-icons-png.flaticon.com/512/1554/1554560.png" alt="Registro Usuario" height= "70" width="70"/>
                     </a>
                     <div class="columnas">
                         <div class="inputBox">
