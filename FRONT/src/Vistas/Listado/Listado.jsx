@@ -3,6 +3,9 @@ import './Listado.css'
 
 const Listado = () => {
 
+    const redireccionCrear = () =>{
+        window.location.href="/crear-orden"
+    }
 
     return (
         <>
@@ -31,7 +34,8 @@ const Listado = () => {
                                     </a>
                                     
                                     <div class="boton-container">
-                                        <button type="submit" class="botonListado">Nueva Orden</button>
+                                        <button type="submit" class="botonListado" onClick={redireccionCrear}>Nueva Orden</button>
+                                        
                                     </div>            
 
                                 </div>
@@ -55,33 +59,44 @@ const Listado = () => {
                                                 <th>Estado</th>
                                             </tr>
                                             <tr>
-                                                <td>#IY-00001</td>
+                                                <td>
+                                                    <a href="editar-orden">#IY-00001</a>
+                                                </td>
                                                 <td>17-11-2022</td>
                                                 <td>Barranquilla</td>
                                                 <td>Cra 5 #100 - 34 Sur</td>
-                                                <td>Cancelado</td>
+                                                <td>
+                                                    <span>Cancelado  </span>
+                                                    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828843.png" alt="Registro Usuario" height= "30" width="30"/>
+                                                    
+                                                </td>
                                             </tr>
                                             <tr>
-                                                <td>#IY-00001</td>
+                                                <td>
+                                                    <a href="editar-orden">#IY-00001</a>
+                                                </td>
                                                 <td>17-11-2022</td>
                                                 <td>Barranquilla</td>
                                                 <td>Cra 5 #100 - 34 Sur</td>
-                                                <td>Cancelado</td>
+                                                <td>
+                                                    <span>Cumplido   </span>
+                                                    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828640.png" alt="Registro Usuario" height= "30" width="30"/>
+                                                </td>
                                             </tr>
                                             <tr>
-                                                <td>#IY-00001</td>
+                                                <td>
+                                                    <a href="editar-orden">#IY-00001</a>
+                                                </td>
                                                 <td>17-11-2022</td>
                                                 <td>Barranquilla</td>
                                                 <td>Cra 5 #100 - 34 Sur</td>
-                                                <td>Cancelado</td>
+                                                <td>
+                                                    <span>Guardado  </span>
+                                                    <img src="https://cdn-icons-png.flaticon.com/512/1828/1828777.png" alt="Registro Usuario" height= "30" width="30"/>
+                                                   
+                                                </td>
                                             </tr>
-                                            <tr>
-                                                <td>#IY-00001</td>
-                                                <td>17-11-2022</td>
-                                                <td>Barranquilla</td>
-                                                <td>Cra 5 #100 - 34 Sur</td>
-                                                <td>Cancelado</td>
-                                            </tr>
+                                        
                                            
                                         </thead>
                                         <tbody class="mensajes" id="listado"></tbody>

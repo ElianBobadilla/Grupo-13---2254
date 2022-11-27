@@ -43,7 +43,7 @@ const Editar_Orden = () => {
                             <i></i>
                         </div>
                         <div class="inputBox">
-                            <input type="number" required="required" name="Peso" placeholder="Peso(cm)" min="0" max="100"/>
+                            <input type="number" required="required" name="Peso" placeholder="Peso(Kg)" min="0" max="100"/>
                             <i></i>
                         </div>
                     </div>

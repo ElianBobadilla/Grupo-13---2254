@@ -2,6 +2,11 @@ import React from "react";
 import './Login.css'
 
 const Login = () => {
+
+    const redireccionListado = () =>{
+        window.location.href="/listado"
+    }
+
     return (
         <>
             <div class="box-login">
@@ -24,7 +29,7 @@ const Login = () => {
                     <h1></h1>
                     <h1></h1>
                     <div>
-                        <button type="submit" class="boton">Iniciar Sesión</button>
+                        <button type="submit" class="boton" onClick={redireccionListado}>Iniciar Sesión</button>
                     </div>
                 </form>
             </div>
