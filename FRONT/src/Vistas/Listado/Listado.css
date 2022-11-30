@@ -1,15 +1,17 @@
 .bandeja-container{
-    width: 80%;
+    width: 1000px;
     position: relative;
     border-radius: 10px 10px 10px 10px;
     color: blanchedalmond;
+    background-color: #1c1c1c;
     padding: 0px 0px 0px 0px;
 }
 
 .mensajes-container{
+    width: 1000px;
     border-radius: 10px 10px 10px 10px;
-    color: blanchedalmond;
-    padding: 0px 0px 0px 0px;
+    position: relative;
+    margin-left: 0px; 
 }
 
 
@@ -25,7 +27,23 @@
 .navbar {
     background-color: transparent;
     border-radius: 10px 10px 10px 10px;
-    border-width: 2 px;
-    border-color: cyan; 
+    border-width: 3px;
+    
+}
+.boton-container{
+    position: absolute;
+}
+.botonListado{
+	width: 150px;
+	height: 45px;
+    background-color: #333333;
     border-style: solid;
+    border-color: #8f8f8f;
+    font-style: normal;
+    color: aliceblue;
+    
+}
+.botonListado:hover{
+    background: #45f3ff;
+    color: #1d1d1d;
 }

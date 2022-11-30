@@ -1,10 +1,13 @@
-.registro-container{
-    height: 95vh;
-    
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 30px;
-    color: blanchedalmond;
+.box-registro-orden{
+    position: relative;
+	width: 610px;
+	height: 750px;
+	background: #45f3ff;
+	border-radius: 10px;
+	display: inline-block;
+
+}
+.columnas {
+	display: flex;
+	
 }
