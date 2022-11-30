@@ -18,7 +18,8 @@ body {
 	align-items: center;
 	min-height: 100vh;
 	flex-direction: column;
-	background: #23242a;
+	background: #333333;
+
 }
 .inputBox {
 	position: relative;
